@@ -8,7 +8,7 @@ import java.util.function.Consumer
  * 2. 参数在前面 参数类型在后
  * 3. 没有分号;
  * 4. 可以跟java进行互操作
- * 
+ *
  */
 fun main(args:Array<String>){
 
