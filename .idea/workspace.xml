@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53f68d7a-5b2d-4199-9f4e-b77898e2920a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/kotlin_lecture/com/kotlin/demo/CompilerKt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kotlin/demo/Compiler.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kotlin/demo/Caculation.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kotlin/demo/HelloKotlin.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kotlin/demo/HelloKotlin2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kotlin/demo/HelloKotlin3.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/kotlin/demo/HelloKotlin4.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/kotlin_lecture/META-INF/kotlin_lecture.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin_lecture/META-INF/kotlin_lecture.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/kotlin_lecture/com/kotlin/demo/HelloWordDemoKt$main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin_lecture/com/kotlin/demo/HelloWordDemoKt$main$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/kotlin_lecture/com/kotlin/demo/HelloWordDemoKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin_lecture/com/kotlin/demo/HelloWordDemoKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/kotlin/demo/HelloWordDemo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kotlin/demo/HelloWordDemo.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/kotlin_lecture/com/kotlin/demo/CompilerKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin_lecture/com/kotlin/demo/CompilerKt.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,7 +40,7 @@
           <entry key="class" value="4" />
           <entry key="iml" value="1" />
           <entry key="java" value="3" />
-          <entry key="kt" value="13" />
+          <entry key="kt" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -47,33 +48,23 @@
           <entry key="CLASS" value="4" />
           <entry key="IDEA_MODULE" value="1" />
           <entry key="JAVA" value="3" />
-          <entry key="Kotlin" value="13" />
+          <entry key="Kotlin" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="kt" value="604" />
+          <entry key="kt" value="2426" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Kotlin" value="604" />
+          <entry key="Kotlin" value="2426" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/kotlin/demo/Compiler.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1073">
-              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -90,6 +81,11 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/kotlin/demo/HelloWordDemo.kt" />
         <option value="$PROJECT_DIR$/src/com/kotlin/demo/Compiler.kt" />
+        <option value="$PROJECT_DIR$/src/com/kotlin/demo/HelloKotlin.kt" />
+        <option value="$PROJECT_DIR$/src/com/kotlin/demo/Caculation.kt" />
+        <option value="$PROJECT_DIR$/src/com/kotlin/demo/HelloKotlin2.kt" />
+        <option value="$PROJECT_DIR$/src/com/kotlin/demo/HelloKotlin3.kt" />
+        <option value="$PROJECT_DIR$/src/com/kotlin/demo/HelloKotlin4.kt" />
       </list>
     </option>
   </component>
@@ -152,15 +148,6 @@
               <item name="kotlin" type="462c0819:PsiDirectoryNode" />
               <item name="demo" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="kotlin_lecture" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kotlin_lecture" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="Compiler.kt" type="24436e51:KtFileTreeNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -172,7 +159,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551183996423" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551187541830" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -192,7 +179,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.com.kotlin.demo.CompilerKt">
+  <component name="RunManager" selected="Kotlin.com.kotlin.demo.HelloKotlin4Kt">
     <configuration name="com.kotlin.demo.CompilerKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlin_lecture" />
       <option name="VM_PARAMETERS" />
@@ -206,27 +193,72 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.kotlin.demo.HelloWordDemoKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="com.kotlin.demo.HelloKotlin2Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlin_lecture" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.kotlin.demo.HelloWordDemoKt" />
+      <option name="MAIN_CLASS_NAME" value="com.kotlin.demo.HelloKotlin2Kt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.kotlin.demo.HelloKotlin3Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="kotlin_lecture" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.kotlin.demo.HelloKotlin3Kt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.kotlin.demo.HelloKotlin4Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="kotlin_lecture" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.kotlin.demo.HelloKotlin4Kt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.kotlin.demo.HelloKotlinKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="kotlin_lecture" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.kotlin.demo.HelloKotlinKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Kotlin.com.kotlin.demo.HelloWordDemoKt" />
       <item itemvalue="Kotlin.com.kotlin.demo.CompilerKt" />
+      <item itemvalue="Kotlin.com.kotlin.demo.HelloKotlinKt" />
+      <item itemvalue="Kotlin.com.kotlin.demo.HelloKotlin2Kt" />
+      <item itemvalue="Kotlin.com.kotlin.demo.HelloKotlin3Kt" />
+      <item itemvalue="Kotlin.com.kotlin.demo.HelloKotlin4Kt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.com.kotlin.demo.HelloKotlin4Kt" />
+        <item itemvalue="Kotlin.com.kotlin.demo.HelloKotlin3Kt" />
+        <item itemvalue="Kotlin.com.kotlin.demo.HelloKotlin2Kt" />
+        <item itemvalue="Kotlin.com.kotlin.demo.HelloKotlinKt" />
         <item itemvalue="Kotlin.com.kotlin.demo.CompilerKt" />
-        <item itemvalue="Kotlin.com.kotlin.demo.HelloWordDemoKt" />
       </list>
     </recent_temporary>
   </component>
@@ -241,12 +273,12 @@
       <option name="presentableId" value="Default" />
       <updated>1551181302075</updated>
       <workItem from="1551181304058" duration="433000" />
-      <workItem from="1551181746540" duration="2718000" />
+      <workItem from="1551181746540" duration="5839000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3151000" />
+    <option name="totallyTimeSpent" value="6272000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="81" y="-9" width="1848" height="1098" extended-state="6" />
@@ -259,7 +291,7 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="UI Designer" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Messages" weight="0.32938644" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32938644" />
@@ -377,6 +409,41 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1073">
           <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kotlin/demo/HelloKotlin.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-257">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kotlin/demo/HelloKotlin2.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="492">
+          <caret line="33" column="42" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kotlin/demo/Caculation.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="24" selection-start-column="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kotlin/demo/HelloKotlin3.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="666">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kotlin/demo/HelloKotlin4.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="38" column="4" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
         </state>
       </provider>
     </entry>
